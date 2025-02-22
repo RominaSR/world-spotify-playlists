@@ -10,7 +10,7 @@ A simple web app that allows users to search for Spotify playlists by country. I
 - Get a list of up to 5 relevant playlists.
 - Click on the playlist links to open them in Spotify.
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies used
 - **Python** (Flask)
 - **Spotify API** (Spotipy)
 - **HTML/CSS** (Basic frontend)
