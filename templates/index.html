@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Playlists by Country</title>
+</head>
+<body>
+    <h1>Search for Spotify Playlists by Country</h1>
+    <form method="POST">
+        <input type="text" name="country" placeholder="Enter a country (e.g., Argentina, Brazil)" required>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if country %}
+        <h2>Playlists for {{ country }}</h2>
+        {% if playlists %}
+            <ul>
+                {% for playlist in playlists %}
+                    <li><a href="{{ playlist.url }}" target="_blank">{{ playlist.name }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No playlists found.</p>
+        {% endif %}
+    {% endif %}
+</body>
+</html>
