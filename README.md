@@ -61,8 +61,6 @@ This app is deployed on **Render**. If you want to deploy your own version:
 ## 📜 License
 This project is open-source under the **MIT License**.
 
-## 🤝 Contributing
-Feel free to fork this repository, submit pull requests, or report issues!
 
 ---
 🚀 **Developed by [Romina Soledad Romay](https://github.com/RominaSR)**
