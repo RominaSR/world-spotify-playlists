@@ -2,8 +2,10 @@
 
 A simple web app that allows users to search for Spotify playlists by country. It uses the **Spotify Web API** to fetch and display playlists related to the selected country.
 
-## 🌍 Live Demo
-[**World Spotify Playlists**](https://world-spotify-playlists.onrender.com)
+## 🌍 Demo
+
+[![Watch the video](https://img.youtube.com/vi/Q4kwGHZoA4Y/0.jpg)](https://youtu.be/Q4kwGHZoA4Y)
+
 
 ## 🎵 Features
 - Search for Spotify playlists by country.
